@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "AliyunOSSiOS"
+  s.name         = "JXAliyunOSSiOS"
 
-  s.version      = "2.6.5"
+  s.version      = "0.0.1"
 
   s.summary      = "An iOS SDK for Aliyun Object Storage Service"
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.authors      = { "Aliyun Open Service" => "aliyuncloudcomputing" }
 
-  s.source       = { :git => "https://github.com/aliyun/aliyun-oss-ios-sdk.git", :tag => "release_" + s.version.to_s }
+  s.source       = { :git => "https://github.com/ChaselAn/aliyun-oss-ios-sdk.git", :tag => "release_" + s.version.to_s }
 
   s.requires_arc = true
 
